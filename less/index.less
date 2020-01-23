@@ -57,3 +57,107 @@ html, body {
     height: 100%;
 }
 
+@page-margin: 10%;
+@div-margin-top: 50px;
+@mobile: ~"(max-width: 500px)";
+.bordered {
+	border: dotted 1px crimson;
+	padding: 10px;
+}
+.underline {
+	text-decoration: underline;
+}
+@titles: teal;
+@titlefonts: 'Open Sans', sans-serif;
+@headerfont: 'Bangers', cursive;
+@basetext: 'ZCOOL QingKe HuangYou', cursive;
+
+body{
+	background-color: darkgrey;
+	h1 {
+		text-align: center;
+		padding-top: 10px;
+		padding-bottom: 50px;
+		font-size: 54px;
+		color: crimson;
+		font-family: @headerfont;
+	}
+	
+	h2 {
+		font-size: 23px;
+		font-weight: 600;
+		padding-bottom: 30px;
+		color: @titles;
+		.underline();
+		font-family: @titlefonts;
+	}
+
+	h3 {
+		font-size: 21px;
+		font-weight: 500;
+		padding-bottom: 10px;
+		padding-top: 8px;
+		font-family: @titlefonts;
+	}
+
+	margin-left: @page-margin;
+	margin-right: @page-margin;
+	
+	nav{
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 30px;
+		font-size: 18px;
+		font-family: @basetext;
+		a:link {
+			text-decoration: none;
+			color: dodgerblue;
+		}
+		border-bottom: 4px dashed crimson;
+		padding-bottom: 10px;
+		@media @mobile {
+			align-items: center;
+			flex-direction: column;
+		}
+		a {
+			@media @mobile {
+				padding-top: 10px;
+				font-size: 24px;
+			}
+		}
+	}
+	
+	div.intro {
+		margin-top: @div-margin-top;
+		text-align: center;
+		font-family: @basetext;
+		img {
+			width: 50%;
+			padding-bottom: 30px;
+			@media @mobile {
+				width: 100%;
+			}
+		}
+	}
+	
+	div.skillset {
+		margin-top: @div-margin-top;
+		.bordered();
+		font-family: @basetext;
+	}
+	div.workhistory{
+		margin-top: @div-margin-top;
+		.bordered();
+		font-family: @basetext;
+	}
+	div.contact{
+		margin-top: @div-margin-top;
+		text-align: center;
+		font-family: @basetext;
+	}
+	div.footer{
+		text-align: center;
+		margin-top: @div-margin-top;
+		font-family: @basetext;
+	}
+}

@@ -1,1 +1,232 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.bordered {
+  border: dotted 1px crimson;
+  padding: 10px;
+}
+.underline {
+  text-decoration: underline;
+}
+body {
+  background-color: darkgrey;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+body h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: 54px;
+  color: crimson;
+  font-family: 'Bangers', cursive;
+}
+body h2 {
+  font-size: 23px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  color: teal;
+  text-decoration: underline;
+  font-family: 'Open Sans', sans-serif;
+}
+body h3 {
+  font-size: 21px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-top: 8px;
+  font-family: 'Open Sans', sans-serif;
+}
+body nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  border-bottom: 4px dashed crimson;
+  padding-bottom: 10px;
+}
+body nav a:link {
+  text-decoration: none;
+  color: dodgerblue;
+}
+@media (max-width: 500px) {
+  body nav {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  body nav a {
+    padding-top: 10px;
+    font-size: 24px;
+  }
+}
+body div.intro {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+body div.intro img {
+  width: 50%;
+  padding-bottom: 30px;
+}
+@media (max-width: 500px) {
+  body div.intro img {
+    width: 100%;
+  }
+}
+body div.skillset {
+  margin-top: 50px;
+  border: dotted 1px crimson;
+  padding: 10px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+body div.workhistory {
+  margin-top: 50px;
+  border: dotted 1px crimson;
+  padding: 10px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+body div.contact {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+body div.footer {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
