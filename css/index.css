@@ -134,3 +134,46 @@ html,
 body {
   height: 100%;
 }
+body {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+body h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: 24px;
+}
+body h2 {
+  font-size: 23px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+body nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+body nav a:link {
+  text-decoration: none;
+  color: dodgerblue;
+}
+body div.intro {
+  padding-top: 50px;
+  text-align: center;
+}
+body div.skillset {
+  padding-top: 50px;
+}
+body div.workhistory {
+  padding-top: 50px;
+}
+body div.contact {
+  padding-top: 50px;
+  text-align: center;
+}
+body div.footer {
+  text-align: center;
+  padding-top: 50px;
+}
