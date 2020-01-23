@@ -59,6 +59,7 @@ html, body {
 
 @page-margin: 10%;
 @div-margin-top: 50px;
+@mobile: ~"(max-width: 500px)";
 .bordered {
 	border: dotted 1px crimson;
 	padding: 10px;
@@ -114,6 +115,16 @@ body{
 		}
 		border-bottom: 4px dashed crimson;
 		padding-bottom: 10px;
+		@media @mobile {
+			align-items: center;
+			flex-direction: column;
+		}
+		a {
+			@media @mobile {
+				padding-top: 10px;
+				font-size: 24px;
+			}
+		}
 	}
 	
 	div.intro {
@@ -123,6 +134,9 @@ body{
 		img {
 			width: 50%;
 			padding-bottom: 30px;
+			@media @mobile {
+				width: 100%;
+			}
 		}
 	}
 	

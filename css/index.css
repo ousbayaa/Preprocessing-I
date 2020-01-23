@@ -182,6 +182,18 @@ body nav a:link {
   text-decoration: none;
   color: dodgerblue;
 }
+@media (max-width: 500px) {
+  body nav {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  body nav a {
+    padding-top: 10px;
+    font-size: 24px;
+  }
+}
 body div.intro {
   margin-top: 50px;
   text-align: center;
@@ -190,6 +202,11 @@ body div.intro {
 body div.intro img {
   width: 50%;
   padding-bottom: 30px;
+}
+@media (max-width: 500px) {
+  body div.intro img {
+    width: 100%;
+  }
 }
 body div.skillset {
   margin-top: 50px;
