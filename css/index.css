@@ -135,13 +135,14 @@ body {
   height: 100%;
 }
 .bordered {
-  border: dotted 1px dodgerblue;
+  border: dotted 1px crimson;
   padding: 10px;
 }
 .underline {
   text-decoration: underline;
 }
 body {
+  background-color: darkgrey;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -149,8 +150,9 @@ body h1 {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 50px;
-  font-size: 24px;
+  font-size: 54px;
   color: crimson;
+  font-family: 'Bangers', cursive;
 }
 body h2 {
   font-size: 23px;
@@ -158,18 +160,23 @@ body h2 {
   padding-bottom: 30px;
   color: teal;
   text-decoration: underline;
+  font-family: 'Open Sans', sans-serif;
 }
 body h3 {
   font-size: 21px;
   font-weight: 500;
   padding-bottom: 10px;
   padding-top: 8px;
+  font-family: 'Open Sans', sans-serif;
 }
 body nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
   font-size: 18px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  border-bottom: 4px dashed crimson;
+  padding-bottom: 10px;
 }
 body nav a:link {
   text-decoration: none;
@@ -178,22 +185,31 @@ body nav a:link {
 body div.intro {
   margin-top: 50px;
   text-align: center;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+body div.intro img {
+  width: 50%;
+  padding-bottom: 30px;
 }
 body div.skillset {
   margin-top: 50px;
-  border: dotted 1px dodgerblue;
+  border: dotted 1px crimson;
   padding: 10px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 body div.workhistory {
   margin-top: 50px;
-  border: dotted 1px dodgerblue;
+  border: dotted 1px crimson;
   padding: 10px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 body div.contact {
   margin-top: 50px;
   text-align: center;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
 body div.footer {
   text-align: center;
   margin-top: 50px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
