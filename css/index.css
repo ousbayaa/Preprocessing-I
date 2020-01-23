@@ -134,6 +134,13 @@ html,
 body {
   height: 100%;
 }
+.bordered {
+  border: dotted 1px dodgerblue;
+  padding: 10px;
+}
+.underline {
+  text-decoration: underline;
+}
 body {
   margin-left: 10%;
   margin-right: 10%;
@@ -143,11 +150,20 @@ body h1 {
   padding-top: 10px;
   padding-bottom: 50px;
   font-size: 24px;
+  color: crimson;
 }
 body h2 {
   font-size: 23px;
   font-weight: 600;
   padding-bottom: 30px;
+  color: teal;
+  text-decoration: underline;
+}
+body h3 {
+  font-size: 21px;
+  font-weight: 500;
+  padding-bottom: 10px;
+  padding-top: 8px;
 }
 body nav {
   display: flex;
@@ -160,20 +176,24 @@ body nav a:link {
   color: dodgerblue;
 }
 body div.intro {
-  padding-top: 50px;
+  margin-top: 50px;
   text-align: center;
 }
 body div.skillset {
-  padding-top: 50px;
+  margin-top: 50px;
+  border: dotted 1px dodgerblue;
+  padding: 10px;
 }
 body div.workhistory {
-  padding-top: 50px;
+  margin-top: 50px;
+  border: dotted 1px dodgerblue;
+  padding: 10px;
 }
 body div.contact {
-  padding-top: 50px;
+  margin-top: 50px;
   text-align: center;
 }
 body div.footer {
   text-align: center;
-  padding-top: 50px;
+  margin-top: 50px;
 }
